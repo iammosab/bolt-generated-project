@@ -1,0 +1,47 @@
+:root {
+      --navy: #1a237e;
+      --white: #ffffff;
+      --orange: #ff9800;
+      --gray-100: #f8f9fa;
+      --gray-800: #343a40;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--gray-800);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+    }
+
+    .rtl {
+      font-family: 'Almarai', sans-serif;
+      direction: rtl;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    /* Smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Selection styling */
+    ::selection {
+      background: rgba(255, 152, 0, 0.3);
+      color: white;
+    }
